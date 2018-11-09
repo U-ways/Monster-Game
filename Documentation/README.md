@@ -5,23 +5,23 @@ Overview
 
 #### Table of contents:
 
-- **`Board#findPlaceMonster(String name)`**
-  - **Premises the algorithm relies on:**
+- [**`Board#findPlaceMonster(String name)`**](#boardfindplacemonsterstring-name)
+  - [**Premises the algorithm relies on:**](#premises-the-algorithm-relies-on)
     1. The grid row width.
     2. A list that stores the linear index of each empty spot in the grid.
-  - **How a monster spot is derived from a linear grid index:**
+  - [**How a monster spot is derived from a linear grid index:**](#how-a-monster-spot-grid-coordinates-is-derived-from-a-linear-grid-index)
     0. Gathered facts
     1. Finding the y-coordinates of the current monster spot
     2. Finding the x-coordinates of the current monster spot
-- **`Board#launchAttack(int[] pos)`**
-  - **Premises the algorithm relies on:**
+- [**`Board#launchAttack(int[] pos)`**](#boardlaunchattackint-pos)
+  - [**Premises the algorithm relies on:**](#how-monsters-attack-range-is-derived-from-its-own-location)
     1. Monster's attacking grid position
-  - **How monster's attack range is derived from its own location:**
+  - [**How monster's attack range is derived from its own location:**](#how-monsters-attack-range-is-derived-from-its-own-location)
     1. Find monster attack range locations
     2. Check if the spot to be attacked is a monster
     3. Use linear index formula for finding the victim details
     4. Increase monster score by 1 for every successful attack
-  - **Complexity analysis**
+  - [**Complexity analysis**](#complexity-analysis)
 
 
 `Board#findPlaceMonster(String name)`
