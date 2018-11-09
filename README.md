@@ -3,10 +3,10 @@ Monster Game
 Overview
 -------------------------------------------------------------------------------
 
-This way was an assignment given for the **CO518: Algorithms, Correctness and Efficiency** module. The main objective was to write an efficient algorithm to [launch a monster attack ](link_to_function_code_line) using linear data structures types and following certain constraints.
+This way was an assignment given for the **CO518: Algorithms, Correctness and Efficiency** module. The main objective was to write an efficient algorithm to launch a monster attack using linear data structures types and following certain constraints.
 
 - [Launch attack algorithm Documentation ](./Documentation/README.md)
-- [Launch attack algorithm method ](link_to_function_code_line)
+- [Launch attack algorithm method ](https://github.com/U-ways/Monster-Game/blob/7177d925148a807d7fe02e8133a448db7d5de700/src/main/java/app/monster_game/Board.java#L154)
 
 
 
@@ -48,7 +48,7 @@ You're tasked to develop the program given the following UML guidelines:
 
 #### Objective:
 
-Find an efficient algorithm to attack and track monsters within the game while providing the following options:
+Find an efficient algorithm to attack and track monsters from/using the `Board` Class while providing the following options:
 
 1. Create a monster by name.
 2. Launch an attack by name of the monster that wants to attack.
