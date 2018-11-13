@@ -8,7 +8,7 @@ This way was an assignment given for the **CO518: Algorithms, Correctness and Ef
 - [Launch attack algorithm Documentation ](./Documentation/README.md)
 - [Launch attack algorithm method ](https://github.com/U-ways/Monster-Game/blob/7177d925148a807d7fe02e8133a448db7d5de700/src/main/java/app/monster_game/Board.java#L154)
 
-
+**Grade achieved:** 100%
 
 Assignment description
 -------------------------------------------------------------------------------
