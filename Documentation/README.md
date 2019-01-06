@@ -10,7 +10,6 @@ Overview
     1. The grid row width.
     2. A list that stores the linear index of each empty spot in the grid.
   - [**How a monster spot is derived from a linear grid index:**](#how-a-monster-spot-grid-coordinates-is-derived-from-a-linear-grid-index)
-    0. Gathered facts
     1. Finding the y-coordinates of the current monster spot
     2. Finding the x-coordinates of the current monster spot
 - [**`Board#launchAttack(int[] pos)`**](#boardlaunchattackint-pos)
